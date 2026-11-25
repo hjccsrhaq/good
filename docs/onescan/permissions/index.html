@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>一键扫一扫二维码 · 运营主体与权限用途</title><style>body{max-width:800px;margin:40px auto;padding:0 24px;color:#172f2a;background:#fff;font:16px/1.85 system-ui,sans-serif}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;margin:0}@media(max-width:600px){body{margin:24px auto;padding:0 20px}}</style><main><pre>一键扫一扫二维码
+运营主体：枣庄玄鹤软件有限公司
+版本：1.0.2（5）
+包名：com.linghu.sysewm
+
+安装前可以根据版本查看以下权限及用途。
+
+两种版本共同使用的权限
+• 相机（CAMERA）：点击相机扫码后申请，用于本机识别二维码和条形码。拒绝后仍可手动识别、制码及使用码册。
+
+不接 SDK 版
+仅声明相机权限。导入、导出使用系统文件选择器，由你选定文件。
+
+SuperCore 与友盟统计版额外声明的权限
+• 访问互联网（INTERNET）：取得启动配置、请求和展示广告、提交已授权的应用使用统计。
+• 查看网络状态（ACCESS_NETWORK_STATE）、查看 Wi-Fi 状态（ACCESS_WIFI_STATE）：供组件判断连接状态和网络类型，安排请求或重试。
+• 振动（VIBRATE）：供支持振动反馈的广告交互使用。
+• 保持设备唤醒（WAKE_LOCK）：供组件在执行播放、网络传输等任务时持有唤醒锁。
+• 发送通知（POST_NOTIFICATIONS）：供广告下载组件显示进度或结果。扫码功能不需要此权限，Android 13 及以上可在系统中拒绝。
+• 广告标识（com.google.android.gms.permission.AD_ID、freemme.permission.msa、com.asus.msa.SupplementaryDID.ACCESS）：设备提供相应服务时访问广告标识，用于广告效果与已授权的设备统计。
+• 应用专属的签名权限（com.linghu.sysewm.openadsdk.permission.TT_PANGOLIN、com.linghu.sysewm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION）：供广告组件及 AndroidX 限制组件间通信，保护仅供本应用或同签名组件使用的广播。
+
+首次打开接入版时，请先阅读隐私政策。勾选同意并点击“立即体验”或“跳过”后进入 SDK 启动流程。需要查看或更改系统授权时，请前往系统设置中的本应用权限管理。
+</pre><p><a href="../">阅读完整隐私政策</a></p></main></html>
