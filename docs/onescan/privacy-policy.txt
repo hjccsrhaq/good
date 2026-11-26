@@ -2,8 +2,8 @@
 
 运营者　枣庄玄鹤软件有限公司
 隐私联系邮箱　hanbing@yeyukj.com
-适用版本　Android 1.0.3（版本号 6），包名 com.linghu.sysewm
-更新日期与生效日期　2026年11月25日
+适用版本　Android 1.0.4（版本号 7），包名 com.linghu.sysewm
+更新日期与生效日期　2026年11月26日
 
 一、先看您安装的是哪一版
 
